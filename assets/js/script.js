@@ -1,1 +1,2 @@
-console.log("connected")
+alert("hello javascript");
+
