@@ -11,7 +11,14 @@ My target audience are children, playful adults and people that enjoy retrogames
 
 # Features
 
-#
+# testing
+
+ -Html tested in Markup validation service:
+ -Css tested in W3css validator jigsaw:
+ -JavaScript tested in jshint:
+
+# Screenshots
+
 # Sources
 My javascript code is heavily inspired from a youtube tutorial, authored by content-creator "coding with Mike", found here:
 https://www.youtube.com/watch?v=IISA4XaE2gE
