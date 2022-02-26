@@ -18,7 +18,12 @@ h1 {
 }
 
 h2, p {
-        color:purple;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    margin-left: 10em;
+    margin-right: 10em;
+    color:purple;
+    line-break: normal
     }
 
 
