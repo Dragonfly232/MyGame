@@ -18,7 +18,7 @@ class Element{
 
     }
 }
-
+   //first paddle
 const PlayerOne = new Element({
     x: 10,
     y: 200,
@@ -27,13 +27,13 @@ const PlayerOne = new Element({
     color: "#fff",
     gravity: 2,
     });
+    
     //second paddle
-
 const playerTwo = new Element ({
-    x:
-    y:
-    width: 80,
-    height:
+    x: 625,
+    y: 200,
+    width: 15,
+    height: 80
     color: "#fff",
     gravity: 1,
     })
@@ -51,12 +51,17 @@ const ball = new Element({
     })
     
     //Player one score text
+function displayScoreOne(){
+}    context.font = "18px Arial"
+     context.fillstyle = "#fff"
+     context.fillStyle(scoreTwo, canvas.width / 2 - 60, 30)
+ }
 
     //Player two score text
  function displayScoreTwo(){
      context.font = "18px Arial"
      context.fillstyle = "#fff"
-     context.fillStyle(scoreTwo, canvas.width / 2 + 60, 3)
+     context.fillStyle(scoreTwo, canvas.width / 2 + 60, 30)
  }
     //make ball bounce
     function ballBounce(){
