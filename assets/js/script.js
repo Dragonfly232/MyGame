@@ -23,25 +23,41 @@ const PlayerOne = new Element({
     x: 10,
     y: 200,
     width: 80,
+    height:
     color: "#fff",
     gravity: 2,
     });
     //second paddle
 
-    //ball
-    const ball = new Element({
-        x: 650 /2,
-        y: 400 /2
-
+const playerTwo = new Element ({
+    x:
+    y:
+    width: 80,
+    height:
+    color: "#fff",
+    gravity: 1,
     })
+    
+    
+    //ball
+const ball = new Element({
+    x: 650 /2,
+    y: 400 /2
+    width: 15,
+    height: 15,
+    color: "#20C20E", 
+    speed: 1,
+    gravity: 1,
+    })
+    
     //Player one score text
 
     //Player two score text
 
     //draw elements
-    function drawElement(element) {
-
-
+function drawElement(element) {
+    context.fillStyle = element.color;
+    context.fillRect(element.x, element.y, element.width, element.height);
     }
 
     //detect collision
