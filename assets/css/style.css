@@ -2,7 +2,8 @@ body {
     background-color: rgb(196, 132, 212);
     font-family: 'Press Start 2P', cursive;
     font-style: normal;
-    
+    margin: 0;
+    padding: 0;
 }
     
   
