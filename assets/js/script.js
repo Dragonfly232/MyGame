@@ -18,6 +18,14 @@ function doKeyDown(e){
        playerOne.y + playerOne.height + playerOne.gravity < canvas.height
     ) 
        playerOne += playerOne.gravity * 4;
+
+    if (key == "i" && playerTwo.y - playerTwo.gravity > 0)
+       playerTwo.y -= playerTwo.gravity * 4;  
+    else if (
+        key == "k" &&
+        playerTwo.y + playerTwo.height + playerTwo.gravity < canvas.height
+     ) 
+        playerTwo += playerTwo.gravity * 4;
     
 }
 class Element{
