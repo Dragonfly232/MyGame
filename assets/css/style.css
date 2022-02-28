@@ -2,8 +2,8 @@ body {
     background-color: rgb(196, 132, 212);
     font-family: 'Press Start 2P', cursive;
     font-style: normal;
-    margin: 0;
-    padding: 0;
+    margin: 3px;
+    padding: 5px;
 }
     
   
@@ -14,17 +14,20 @@ h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 4 rem;
+    text-align:center;
     width: 200px;
     color:purple;
 }
 
 h2, p {
+    
+    letter-spacing: 2px;
     margin-top: 5em;
     margin-bottom: 5em;
     margin-left: 10em;
     margin-right: 10em;
     color:purple;
-    line-break: strict
+    display: inline block;
     }
 
 

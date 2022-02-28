@@ -56,7 +56,7 @@ const playerTwo = new Element ({
     y: 200,
     width: 15,
     height: 80
-    color: "#fff",
+    color: '#fff',
     gravity: 2,
     })
     
@@ -74,7 +74,7 @@ const ball = new Element({
     
     //Player one score text
 function displayScoreOne(){
-}    context.font = "18px Arial"
+    context.font = "18px Arial"
      context.fillStyle = "#fff"
      context.fillText(scoreOne, canvas.width / 2 - 60, 30)
  }
@@ -126,7 +126,7 @@ function drawElement(element) {
     context.fillRect(element.x, element.y, element.width, element.height);
     }
 
-}    
+   
 
 function drawElement() {
     context.clearRect(0, 0, canvas.width, canvas.height);

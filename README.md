@@ -27,5 +27,5 @@ My javascript code is heavily inspired from a youtube tutorial, authored by cont
 https://www.youtube.com/watch?v=IISA4XaE2gE
 
 # Public view
-MyGame is deployed here(github pages): https://dragonfly232.github.io/MyGame/  here(gitpod editor): dragonfly232-mygame-ag12pmdvb5n.ws-eu34xl.gitpod.io  and here(github): https://github.com/Dragonfly232/MyGame
+MyGame is deployed here(github pages): https://dragonfly232.github.io/MyGame/  here(gitpod editor): https://dragonfly232-mygame-stqe8by9osx.ws-eu34xl.gitpod.io/ and here(github): https://github.com/Dragonfly232/MyGame
 
