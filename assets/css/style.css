@@ -30,7 +30,9 @@ h2, p {
     display: inline block;
     }
 
-
+#ponggame {
+    box-align: center;
+}
 
 
 

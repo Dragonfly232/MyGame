@@ -1,10 +1,10 @@
-const canvas = document.getElemantById("pongGame");
+const canvas = document.getElemantById("ponggame");
 const context = canvas.getContext("2d");
 canvas.width = 650;
 canvas.height = 400;
 
 let scoreOne = 0;
-let scoreTwo = 0;
+let scoreTwo = 0;w
 
 //key movement
 window.addEventListener("keypress, doKeyDown, false");
