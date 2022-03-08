@@ -21,7 +21,6 @@ h1 {
 
 h2, p {
     
-    letter-spacing: 3em;
     margin-top: 5em;
     margin-bottom: 5em;
     margin-left: 10em;
@@ -29,6 +28,15 @@ h2, p {
     color:purple;
     display: inline block;
     }
+
+h2 {
+    letter-spacing: 3em;
+}  
+
+p {
+    letter-spacing: 1em;
+    line-height: 1em;
+}
 
 #ponggame {
     box-align: center;

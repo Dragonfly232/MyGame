@@ -55,7 +55,7 @@ const playerTwo = new Element ({
     x: 625,
     y: 200,
     width: 15,
-    height: 80
+    height: 80,
     color: '#fff',
     gravity: 2,
     })
@@ -64,7 +64,7 @@ const playerTwo = new Element ({
     //ball
 const ball = new Element({
     x: 650 /2,
-    y: 400 /2
+    y: 400 /2,
     width: 15,
     height: 15,
     color: "#20C20E", 
