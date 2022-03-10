@@ -1,4 +1,4 @@
-const canvas = document.getElemantById("ponggame");
+const canvas = document.getElemantById("pongGame");
 const context = canvas.getContext("2d");
 canvas.width = 650;
 canvas.height = 400;

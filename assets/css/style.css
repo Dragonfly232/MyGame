@@ -22,21 +22,43 @@ h1 {
     grid-template-rows: auto 1fr auto;
     
 }
- #text-1 {
+
+#text-1 {
     font-weight: 400;
     font-size:larger;
     text-align: right;
     width: 50%;
+    line-height: 300%;
     color: purple;
  }
-#ping-pong {
-    margin-left: 100px
+
+#article {
+    font-weight: 400;
+    font-size:larger;
+    text-align: center;
+    width: 50%;
+    line-height: 300%;
+    color: purple;
 }
 
 
-#text-2
+#ping-pong {
+    margin-left: 100px
+}
+#arcade {
+    margin: right;
+}
 
-#ponggame {
+#text-2 {
+    font-weight: 400;
+    font-size:larger;
+    text-align: left;
+    width: 50%;
+    line-height: 300%;
+    color: purple;
+}
+
+#pongGame {
     box-align: center;
 }
 

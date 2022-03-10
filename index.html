@@ -18,7 +18,7 @@
         <header id="text-1"class="page-header">
             <h1>Play Pong!</h1>
             <img id="ping-pong" src="assets/images/ping-pong-rackets.png" alt="ping-pong rackets"> </header>
-        <article class="page-body">
+        <article id="article" class="page-body">
             <h2>Classic Computergame</h2>
             <p>Take a walk down memorylane with this classical Computergame.
            Or if you are younger; discover one of the simplestand yet surprisingly 
@@ -28,12 +28,17 @@
         </article>
         
     <!--centering from here and adding width and height was more effective than styling via id to css and js files -->
-    <center><canvas id="ponggame" style="background-color:black" width="650" height="400"></canvas></center>
-    
+    <div >
+        <center>
+            <span>Score Player 1</span>
+            <canvas id="pongGame" style="background-color:black" width="650" height="400"></canvas>
+            <span>Score Player 2</span>
+        </center>
+    </div>
 
     <footer id="text-2" clas="page-footer">
         <h3>Gameplay</h3>
-        <img src="assets/images/250px-Pong_arcade_machine.jpg" alt="250px-Pong_arcade_machine">
+        <img id="arcade" src="assets/images/250px-Pong_arcade_machine.jpg" alt="Pong_arcade_machine">
         <p>
         Player 1 is controlled by keys "w" and "s" and Player 2 is controlled by keys "i" and "k".
         The goal is to get more points than the other, before the game is over. 
