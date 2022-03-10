@@ -137,6 +137,11 @@ function drawElement() {
     displayScoreTwo();
     }
 
+    function loop() {
+        drawElements();
+        window.requestAnimationFrame(loop);
+    }
+    loop();
     
 
 

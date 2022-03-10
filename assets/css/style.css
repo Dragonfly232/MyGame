@@ -11,7 +11,7 @@ h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 4 rem;
-    text-align:center;
+    padding-left: 50%;
     width: 200px;
     color:purple;
 }
@@ -29,10 +29,14 @@ h1 {
     width: 50%;
     color: purple;
  }
+#ping-pong {
+    margin-left: 100px
+}
 
- #text-2
 
- #ponggame {
+#text-2
+
+#ponggame {
     box-align: center;
 }
 
