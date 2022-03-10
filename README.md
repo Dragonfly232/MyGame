@@ -8,14 +8,14 @@ Creating
 # Features
 
  -Header:
-I have chosen a modern, but retro flavoured design, with a colourful, but still pleasant colourtheme and a straightforward, minimal UI. The big headline "Play Pong" acts as a logo and 
-tells the user what the site is about right away.
+I have chosen a modern, but retro flavoured design, with a colourful, but still pleasant theme and a straightforward, minimal UI. The big headline "Play Pong" acts as a logo and 
+tells the user what the site is about, right away.
 
  -Gameplay:
  
-Two paddles moving up and down along the edges of the gamebox, attempting to hit the small bouncing ball. They imitate the rackets.
-One racket is controlled by the player and the other is controlled by the computer. Player uses arrowkeys up and down to move up and down.
-The goal is to get more points than the computer, before the game is over. 
+Two paddles moving up and down along the edges of the gamebox, attempting to hit the small bouncing ball.
+Player 1 is controlled by keys "w" and "s" and Player 2 is controlled by keys "i" and "k".
+The goal is to get more points than the other, before the game is over. 
 First player to hit a score of 10 wins.
 
 

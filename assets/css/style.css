@@ -19,7 +19,7 @@ h1 {
     color:purple;
 }
 
-h2, p {
+h2 {
     
     margin-top: 5em;
     margin-bottom: 5em;
@@ -27,9 +27,6 @@ h2, p {
     margin-right: 10em;
     color:purple;
     display: inline block;
-    }
-
-h2 {
     letter-spacing: 3em;
 }  
 
