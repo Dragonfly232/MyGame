@@ -1,9 +1,6 @@
 body {
     background-color: rgb(196, 132, 212);
     font-family: 'Press Start 2P', cursive;
-    font-style: normal;
-    margin: 3px;
-    padding: 5px;
 }
     
   
@@ -19,24 +16,19 @@ h1 {
     color:purple;
 }
 
-h2 {
-    
-    margin-top: 5em;
-    margin-bottom: 5em;
-    margin-left: 10em;
-    margin-right: 10em;
-    color:purple;
-    display: inline block;
-    letter-spacing: 3em;
-}  
+ #text-1 {
+    font-weight: 400;
+    font-size:larger;
+    text-align: right;
+    width: 50%;
+    color: purple;
+ }
 
-p {
-    letter-spacing: 1em;
-    line-height: 1em;
-    height: ;
-}
+ #text-2 {
 
-#ponggame {
+ }
+
+ #ponggame {
     box-align: center;
 }
 
