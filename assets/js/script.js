@@ -28,6 +28,8 @@ function doKeyDown(e){
         playerTwo += playerTwo.gravity * 4;
     
 }
+
+// class constructor
 class Element{
     constructor(options){
         this.x = options.x;
@@ -40,6 +42,7 @@ class Element{
 
     }
 }
+
    //first paddle
 const PlayerOne = new Element({
     x: 10,
@@ -58,7 +61,7 @@ const playerTwo = new Element ({
     height: 80,
     color: '#fff',
     gravity: 2,
-    })
+    });
     
     
     //ball
@@ -70,7 +73,7 @@ const ball = new Element({
     color: "#20C20E", 
     speed: 1,
     gravity: 1,
-    })
+    });
     
     //Player one score text
 function displayScoreOne(){
@@ -89,11 +92,11 @@ function displayScoreOne(){
 function ballBounce() {
     if(ball.y + ball.gravity <= 0 || ball.y + ball.gravity >= canvas.height){
         ball.gravity = ball.gravity * -1;
-        ball.y = ball.gravity;
-        ball.x = ball.speed;
+        ball.y += ball.gravity;
+        ball.x += ball.speed;
     }  else {
-        ball.y = ball.gravity;
-        ball.x = ball.speed;    
+        ball.y += ball.gravity;
+        ball.x += ball.speed;    
         }
     }
     ballWallCollision();
@@ -108,9 +111,12 @@ function ballWallCollision() {
         ball.y += ball.gravity;
         ball.speed = ball.speed * -1;
         ball.x += ball.speed;
+    } else {
+        ball.y += ball.gravity;
+        ball.speed = ball.speed;
+
     }
-    drawElements();
-}
+        drawElements()
 
 
 
@@ -128,7 +134,7 @@ function drawElement(element) {
 
    
 
-function drawElement() {
+function drawElements() {
     context.clearRect(0, 0, canvas.width, canvas.height);
     drawElement(playerOne);
     drawElement(playerTwo);
