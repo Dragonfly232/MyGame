@@ -13,29 +13,36 @@
 </head>
 <body>
     
-    <h1>Play Pong!</h1>
-    <div id="text-1">
+    <div class="wrapper">
 
-        <h2>Classic Computergame</h2><br>
-        <p>Take a walk down memorylane with this classical Computergame.
+        <header id="text-1"class="page-header">
+            <h1>Play Pong!</h1>
+            <img src="assets/images/ping-pong-rackets.png" alt="ping-pong rackets"> </header>
+        <article class="page-body">
+            <h2>Classic Computergame</h2>
+            <p>Take a walk down memorylane with this classical Computergame.
            Or if you are younger; discover one of the simplestand yet surprisingly 
            amusing games from way back in the 1970`s.
-           It really is quite fun and it´s also free. So go ahead and give it a try!
-        </p>
+           It really is quite fun and it's also free. So go ahead and give it a try!
+           </p>
+        </article>
+        
+    <!--centering from here and adding width and height was more effective than styling via id to css and js files -->
+    <center><canvas id="ponggame" style="background-color:black" width="650" height="400"></canvas></center>
     
-    </div>
 
-    <footer id="text-2">
+    <footer id="text-2" clas="page-footer">
         <h3>Gameplay</h3>
+        <img src="assets/images/250px-Pong_arcade_machine.jpg" alt="250px-Pong_arcade_machine">
         <p>
-            Player 1 is controlled by keys "w" and "s" and Player 2 is controlled by keys "i" and "k".
-            The goal is to get more points than the other, before the game is over. 
-            First player to hit a score of 10 wins.</p>
+        Player 1 is controlled by keys "w" and "s" and Player 2 is controlled by keys "i" and "k".
+        The goal is to get more points than the other, before the game is over. 
+        First player to hit a score of 10 wins.</p>
     </footer>
     
 
-    <!--centering from here and adding width and height was more effective than styling via id to css and js files -->
-    <center><canvas id="ponggame" style="background-color:black" width="650" height="400"></canvas></center>
+    
     <script scr="assets/js/script.js"></script>
+    </div>
 </body>
 </html>

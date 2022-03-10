@@ -37,6 +37,8 @@ Currently unfixed bug; game does not show on canvas, although the file-path is w
 My javascript code is a code-along from a youtube tutorial, authored by content-creator "coding with Mike", found here:
 https://www.youtube.com/watch?v=IISA4XaE2gE
 
+borrowed code from MDN docs; sticky footer
+
 # Public view
 MyGame is deployed here(github pages): https://dragonfly232.github.io/MyGame/  here(gitpod editor): https://dragonfly232-mygame-stqe8by9osx.ws-eu34xl.gitpod.io/ and here(github): https://github.com/Dragonfly232/MyGame
 
