@@ -19,12 +19,18 @@ First player to hit a score of 10 wins.
 
 
 # Testing
- -Test in different browsers; chrome, firefox, opera
- -Html tested in Markup validation service:
- -Css tested in W3css validator jigsaw: Passed without error
- -JavaScript tested in jshint: tested with small errors
- -Readability tested in lighthouse; result:
- -responsiveness tested in dev tools:
+ 1. Test in different browsers; 
+    -Showing content in all tested browsers; chrome, firefox, opera
+ 2. Html tested in Markup validation service: 
+    -Passed with one error about the script tag.
+ 3. Css tested in W3css validator jigsaw: 
+    -Passed without error
+ 4. JavaScript tested in jshint: 
+    -Tested with small errors
+ 5. Readability tested in lighthouse;
+    -Score 99 Measured at https://web.dev/performance-scoring/
+ 6. responsiveness tested in dev tools:
+    -Responsive
 
 
 # Unfixed Bugs
