@@ -77,16 +77,16 @@ const ball = new Element({
     
     //Player one score text
 function displayScoreOne(){
-    context.font = "18px Arial"
-     context.fillStyle = "#fff"
-     context.fillText(scoreOne, canvas.width / 2 - 60, 30)
+    context.font = "18px Arial";
+     context.fillStyle = "#fff";
+     context.fillText(scoreOne, canvas.width / 2 - 60, 30);
  }
 
     //Player two score text
  function displayScoreTwo(){
-     context.font = "18px Arial"
-     context.fillStyle = "#fff"
-     context.fillText(scoreTwo, canvas.width / 2 + 60, 30)
+     context.font = "18px Arial";
+     context.fillStyle = "#fff";
+     context.fillText(scoreTwo, canvas.width / 2 + 60, 30);
 
      //make ball bounce
 function ballBounce() {
@@ -116,7 +116,7 @@ function ballWallCollision() {
         ball.speed = ball.speed;
 
     }
-        drawElements()
+        drawElements();
 
 
 
@@ -139,8 +139,6 @@ function drawElements() {
     drawElement(playerOne);
     drawElement(playerTwo);
     drawElement(ball);
-    displayScoreOne();
-    displayScoreTwo();
     }
 
     function loop() {
@@ -152,8 +150,4 @@ function drawElements() {
 
 
 
-
-    function loop() {
-        ballBounce();
-        window.requestAnimationFrame(loop);
-    }
+}

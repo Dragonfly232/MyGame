@@ -4,11 +4,10 @@ As we can see from the title, "Pong" has a similarity to the reallife game of Pi
 The game is a classic. It is -to my knowledge- the first computergame to be a commercial success.
 My target audience are children, playful adults and people that enjoy retrogames.
 ￼
-Creating
 # Features
 
  -Header:
-I have chosen a modern, but retro flavoured design, with a colourful, but still pleasant theme and a straightforward, minimal UI. The big headline "Play Pong" acts as a logo and 
+I have chosen a modern, but retro flavoured design, with a colourful, pleasant theme and a straight-forward, minimal UI. The big headline "Play Pong" acts as a logo and 
 tells the user what the site is about, right away.
 
  -Gameplay:
@@ -22,8 +21,8 @@ First player to hit a score of 10 wins.
 # Testing
  -Test in different browsers; chrome, firefox, opera
  -Html tested in Markup validation service:
- -Css tested in W3css validator jigsaw:
- -JavaScript tested in jshint:
+ -Css tested in W3css validator jigsaw: Passed without error
+ -JavaScript tested in jshint: tested with small errors
  -Readability tested in lighthouse; result:
  -responsiveness tested in dev tools:
 

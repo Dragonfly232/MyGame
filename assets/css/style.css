@@ -10,7 +10,7 @@ h1 {
     font-family: 'Press Start 2P', cursive;
     font-style: normal;
     font-weight: 700;
-    font-size: 4 rem;
+    font-size: xx-large;
     padding-left: 50%;
     width: 200px;
     color:purple;
@@ -46,7 +46,8 @@ h1 {
     margin-left: 100px
 }
 #arcade {
-    margin: right;
+    margin: 0;
+    
 }
 
 #text-2 {
@@ -58,8 +59,10 @@ h1 {
     color: purple;
 }
 
-#pongGame {
-    box-align: center;
+#game-area {
+    align-content: center;
+    margin-left: 50%;
+    margin-top: 50%;
 }
 
 
